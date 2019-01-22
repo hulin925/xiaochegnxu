@@ -140,5 +140,18 @@ Page({
     // 当界面的下方距离页面底部距离小于100像素时触发回调
     // console.log(this.data.topImg)
   
+  },
+
+  onLaunch() {
+    console.log('onLaunch监听小程序初始化');
+  },
+
+  onShow() {
+    console.log('onShow监听小程序显示');
+  },
+
+  onHide() {
+    console.log('onLaunch监听小程序隐藏');
   }
+
 })

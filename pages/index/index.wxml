@@ -9,7 +9,7 @@
   duration="{{duration}}"
   circular="{{circular}}"
 >
-  <block wx:for="{{topImg}}" wx:key="*this">
+  <block wx:for="{{imgUrls}}" wx:key="*this">
     <swiper-item>
       <image src="{{item}}" class="slide-image" width="355" height="150" />
     </swiper-item>
@@ -29,12 +29,25 @@
   </view>
 </view>
 
+
 <view class='mianfei'>
   <view class='left'>
     <view class='baoj'>免费报价</view>
     <view class='jiaz'>获取家装预算</view>
+    <image src="../../images/calculator.png"></image>
   </view>
-  <view class='right'></view>
+  <view class='right'>
+    <view class='right_sub right_top'>
+      <view class='make'>预约设计师</view>
+      <view class='service'>一对一定制服务</view>
+      <image src="../../images/designer.png" class='top_img'></image>
+    </view>
+    <view class='right_sub'>
+      <view class='make'>预约量房团</view>
+      <view class='service'>精准、高效、先进</view>
+      <image src="../../images/apartment.png" class='bottom_img'></image>
+    </view>
+  </view>
 </view>
 
 <button bindtap="jumpPage" loading="{{loading}}">跳转</button>

@@ -1,7 +1,8 @@
 {
   "pages":[
-    "pages/index/index",
     "pages/xiangqin/xiangqin",
+    "pages/index/index",
+    
     "pages/computed/computed",
     "pages/kefu/kefu"
   ],
@@ -34,7 +35,7 @@
     },
     {
       "pagePath": "pages/kefu/kefu",
-      "text": "预算",
+      "text": "客服",
       "iconPath": "/images/kefu.png",
       "selectedIconPath": "/images/kefu1.png"
     }]
