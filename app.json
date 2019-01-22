@@ -1,0 +1,42 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/xiangqin/xiangqin",
+    "pages/computed/computed",
+    "pages/kefu/kefu"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#7723f6",
+    "navigationBarTitleText": "东山艺锦装饰",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar":{
+    "color":"#454545",
+    "selectedColor":"red",
+    "backgroundColor":"#ccc",
+    "list":[{
+      "pagePath":"pages/index/index",
+      "text":"推荐",
+      "iconPath":"/images/home_s.png",
+      "selectedIconPath":"/images/home.png"
+    },{
+      "pagePath":"pages/xiangqin/xiangqin",
+      "text":"详情",
+      "iconPath":"/images/jilu.png",
+      "selectedIconPath": "/images/jilu_s.png"
+    },
+    {
+      "pagePath": "pages/computed/computed",
+      "text": "预算",
+      "iconPath": "/images/computed.png",
+      "selectedIconPath": "/images/computed_s.png"
+    },
+    {
+      "pagePath": "pages/kefu/kefu",
+      "text": "预算",
+      "iconPath": "/images/kefu.png",
+      "selectedIconPath": "/images/kefu1.png"
+    }]
+  }
+}

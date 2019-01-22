@@ -1,0 +1,11 @@
+/**app.wxss**/
+text{
+  display: block;
+  width:100%;
+  font-size:50rpx;
+  text-align:center;
+  line-height:500rpx;
+}
+body{
+  background-color:#272727;
+}
