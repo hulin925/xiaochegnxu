@@ -1,2 +1,10 @@
 <!--pages/computed/computed.wxml-->
-<text>预算页面</text>
+
+
+<view class='wrap'>
+  <view>{{datalist.web_name}}</view>
+  <view>{{datalist.copyright}}</view>
+  <view>{{datalist.keywords}}</view>
+  <view>{{datalist.weburl}}</view>
+  <view>{{datalist.describe}}</view>
+</view>

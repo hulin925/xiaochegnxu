@@ -1,1 +1,12 @@
 /* pages/computed/computed.wxss */
+.wrap{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  line-height:60rpx;
+  padding-top:60rpx;
+  text-align:center;
+}
+.wrap view{
+  padding:20rpx 0;
+}

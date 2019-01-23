@@ -112,18 +112,19 @@ Page({
     wx.request({
 
       url: 'http://jz.sanhedao.com.cn/index.php/Index/index',
-
+      header:{
+        'content-type':'application/json'
+      },
       success: function (res) {
-        var datas = res.data.data.indextop_pic_list;
+        var datas = res.data.data.style;
         var dataList=datas.map((item,index)=>{
-          return item[1]
+          return item.name
         })
         that.setData({
-          topImg:dataList
+          topImg: dataList
         })
-        console.log(that.data.topImg)
+        // console.log(that.data.topImg)
       }
-      
     })
   },
   onPullDownRefresh: function () {
@@ -143,15 +144,15 @@ Page({
   },
 
   onLaunch() {
-    console.log('onLaunch监听小程序初始化');
+    // console.log('onLaunch监听小程序初始化');
   },
 
   onShow() {
-    console.log('onShow监听小程序显示');
+    // console.log('onShow监听小程序显示');
   },
 
   onHide() {
-    console.log('onLaunch监听小程序隐藏');
+    // console.log('onLaunch监听小程序隐藏');
   }
 
 })

@@ -33,7 +33,7 @@ Page({
       success: function (res) {
         var latitude = res.latitude//维度
         var longitude = res.longitude//经度
-        console.log(res);
+        // console.log(res);
         that.loadCity(latitude, longitude);
       }
     })
@@ -46,7 +46,7 @@ Page({
     myAmapFun.getRegeo({
       location: '' + longitude + ',' + latitude + '',//location的格式为'经度,纬度'
       success: function (data) {
-        console.log(data);
+        // console.log(data);
       },
       fail: function (info) { }
     });

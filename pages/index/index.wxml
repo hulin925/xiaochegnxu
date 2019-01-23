@@ -9,12 +9,13 @@
   duration="{{duration}}"
   circular="{{circular}}"
 >
-  <block wx:for="{{imgUrls}}" wx:key="*this">
+  <block wx:for="{{imgUrls}}" wx:key="item">
     <swiper-item>
       <image src="{{item}}" class="slide-image" width="355" height="150" />
     </swiper-item>
   </block>
 </swiper>
+
 
 <!-- 导航 -->
 <view class='content'>

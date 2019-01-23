@@ -1,2 +1,9 @@
 <!--pages/tiaoz/tiaoz.wxml-->
-<text>button跳转页面</text>
+
+<view class="container">
+  <!--定义页面结构，使用文本组件或其他组件 -->
+  <view>{{weather.city.text}} {{weather.city.data}}</view>
+  <view>{{weather.temperature.text}} {{weather.temperature.data}}</view>
+  <view>{{weather.weather.text}} {{weather.weather.data}}</view>
+  <view>{{weather.windpower.text}} {{weather.windpower.data}}</view>
+</view>

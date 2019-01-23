@@ -1,1 +1,17 @@
 /* pages/tiaoz/tiaoz.wxss */
+
+.container{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #4D8AD7;
+  color: #fff;
+  font-size: 40rpx;
+  line-height:100rpx;
+  padding-top:60rpx;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}
